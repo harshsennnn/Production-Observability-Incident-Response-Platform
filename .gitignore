@@ -1,1 +1,39 @@
 plan.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Kubernetes local configs
+.kube/
+kubeconfig
+*.kubeconfig
+
+# Helm artifacts
+charts/
+*.tgz
+
+# Temporary / local files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.old
+
+# Secrets (never commit)
+secrets/
