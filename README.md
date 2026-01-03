@@ -33,7 +33,7 @@ The stack is built and operated the same way platform and SRE teams manage obser
 ---
 
 ## 📁 Repository Structure
-
+```
 observability-stack/
 ├── docs/
 │ ├── architecture/
@@ -54,7 +54,7 @@ observability-stack/
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
